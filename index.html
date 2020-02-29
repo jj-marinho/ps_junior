@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">    <meta charset="UTF-8">
+    <script>
+        function toggleTransparency() {
+           document.getElementsByClassName("top")[0].style.opacity = 0;
+        }
+    </script>    
+</head>
+<body>
+    <h1>Bem vindos a minha Apresentação</h1>
+
+    <div id="cf2" class="shadow">
+        <img class="bottom" src="/Art/oPatodoBCC.png" />
+        <img class="top" src="/Art/Jogui.png" />
+    </div>
+    <button onclick="toggleTransparency()">Click me</button> 
+</body>
+</html>

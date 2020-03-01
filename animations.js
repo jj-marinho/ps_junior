@@ -1,5 +1,10 @@
-$(document).ready(function() {
-    $("#cf_onclick").click(function() {
-    $("#cf2 img.top").toggleClass("transparent");
-  });
-  });
+let toggled = false
+function toggleTransparency() {
+   if (toggled == true){
+        document.getElementsByClassName("top")[0].style.opacity = 1;
+        toggled = false
+    } else {
+    document.getElementsByClassName("top")[0].style.opacity = 0;
+    toggled = true;
+    }
+}

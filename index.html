@@ -3,21 +3,34 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="style.css">    <meta charset="UTF-8">
-    <script>
-        function toggleTransparency() {
-           document.getElementsByClassName("top")[0].style.opacity = 0;
-        }
-    </script>    
+    <script src="animations.js"></script>    
 </head>
 <body>
     <h1>Bem vindos a minha Apresentação</h1>
 
-    <div id="cf2" class="shadow">
-        <img class="bottom" src="/Art/oPatodoBCC.png" />
-        <img class="top" src="/Art/Jogui.png" />
+    <div class="jumbotron">
+        <div class="jumboleft">
+            <img class="bottom" src="/Art/oPatodoBCC.png" />
+            <img class="top" src="/Art/Jogui.png" />
+        </div>
+        <div class="jumbotopright align-justify">
+            <button onclick="toggleTransparency()">QUACK</button> 
+            Parte Textual de Cima
+        </div>
+        <div class="jumbobottomright align-justify">
+            <p>Parte Textual de Baixo</p>
+        </div>
     </div>
-    <button onclick="toggleTransparency()">Click me</button> 
+
+    <div class="bullets">
+        <h2 class="align-justify">Motivos pq eu sou lecal</h2>
+        <h3 class="align-justify bullet-title">Primeiro Motivo</h3>
+        <h3 class="align-justify bullet-title">Segundo Motivo</h3>
+        <h3 class="align-justify bullet-title">Terceiro Motivo</h3>
+        <p class="align-justify bullet-content">Parte Textual de Baixo</p>
+
+    </div>
 </body>
 </html>

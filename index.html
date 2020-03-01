@@ -8,16 +8,18 @@
     <script src="animations.js"></script>    
 </head>
 <body>
-    <h1>Bem vindos a minha Apresentação</h1>
+    <h1 class="centered">Bem vindos a minha Apresentação</h1>
 
     <div class="jumbotron">
         <div class="jumboleft">
             <img class="bottom" src="/Art/oPatodoBCC.png" />
             <img class="top" src="/Art/Jogui.png" />
+            <img class="crazyduck"src="/Art/atakdopatoloco.png">
+
         </div>
         <div class="jumbotopright centered">
-            <button onclick="toggleTransparency()">QUACK</button> 
-            Parte Textual de Cima
+            <button id="leftButton" onclick="joaoMode()">História do João</button>
+            <button id="rightButton" onclick="duckMode()">História do Pato</button>
         </div>
         <div class="jumbobottomright centered">
             <p>Parte Textual de Baixo</p>
@@ -30,17 +32,28 @@
         <h3 class="centered bullet-title">Segundo Motivo</h3>
         <h3 class="centered bullet-title">Terceiro Motivo</h3>
         <p class="centered bullet-content">Parte Textual de Baixo</p>
+        <p class="centered bullet-content" id="duckWithGun">Parte Textual de Baixo</p>
         <p class="centered bullet-content">Parte Textual de Baixo</p>
-        <p class="centered bullet-content">Parte Textual de Baixo</p>
-
     </div>
 
+
+    <h2 class="centered">O que eu posso adicionar ao ICMC Júnior</h2>
+
     <div class="pointers">
-        Pq eu Quero Entrar na Junior
+        <ul class="a">
+            <li>Pq eu Quero Entrar na Junior</li>
+            <li>Pq eu Quero Entrar na Junior</li>
+            <li>Pq eu Quero Entrar na Junior</li>
+            <li>Pq eu Quero Entrar na Junior</li>
+        </ul>
     </div>
 
     <div class="footer">
-        
+        <h2>O que será que esse botão faz? ------------------------------></h2>
+        <button onclick="naniCrazyDuck()">
+            🦆🦆🦆<br>
+            🦆🦆🦆
+        </button> 
     </div>
 </body>
 </html>

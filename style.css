@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif ;
   background-color: #EAF1F1;
   color: aliceblue;
+  margin: 0px;
 }
 
 h2, h1 {
@@ -51,11 +52,21 @@ h2, h1 {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
+  border-radius: 10px;
+  place-self: stretch;
 }
 
 .jumbotopright button {
   border-radius: 10px;
+  border: transparent;
 }
+.jumbotopright button:hover {
+  background-color: rgb(41, 75, 75);
+  color: aliceblue;
+
+}
+
+
 
 .jumbobottomright {
   grid-column-start: 3 ;
@@ -66,9 +77,10 @@ h2, h1 {
 }
 
 .centered {
-  place-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-
 }
 
 .bullets {
@@ -118,7 +130,21 @@ li {
   margin: 20px;
 }
 
-button {
+.nani {
   background-color: #A5A5A5;
   /* border: #A5A5A5; */
 }
+
+.footer {
+  color: #2A3E51;
+  display: flex;
+  font-size: 20px;
+  background-color: #ABB6C2 ;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* #footer-align {
+  margin-left: auto;
+} */

@@ -16,7 +16,7 @@ h2, h1 {
 .jumbotron {
   display: grid;
   grid-template-columns: 20px 500px auto 20px;
-  grid-template-rows: 20px 50px 450px 20px;
+  grid-template-rows: 20px 50px auto 20px;
   background-color:#2A3E51;
   border-radius: 10px;
   margin: 30px;

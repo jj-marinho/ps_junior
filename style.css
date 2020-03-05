@@ -88,6 +88,11 @@ h2, h1 {
   vertical-align: middle;
 }
 
+b {
+  font-size: 22px;
+}
+
+
 .centered {
   display: flex;
   align-items: center;
@@ -124,6 +129,7 @@ h2, h1 {
   border-bottom-right-radius: 10px;
   background-color: #ABB6C2;
   color: darkslategrey;
+  font-size: 32px;
 }
 
 .bullet-content, .bullet-title {

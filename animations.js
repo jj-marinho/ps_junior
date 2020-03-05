@@ -30,9 +30,9 @@ function joaoMode() {
    <ul class="list">
         <li>Nascido no Paraná, vivi minha vida inteira no interior de São Paulo (Vale do Ribeira).</li>
         <li>Desde criança, sempre tive um certo fascínio por empresas, era muito curioso para saber por quais motivos empresas chegavam a falência ou obtinham sucesso.</li>
-        <li>Por conta disso, decidi cursar um curso na área de Business, acabei passando em Economia na FEA/USP e aos 17 anos fui morar sozinho em São Paulo</li>
-        <li>Tive grandes experiências dentro e fora do curso, cheguando a estagiar no maior banco dentro do território brasileiro, o Bradesco</li>
-        <li>Lá obtive muita experiência profissional e entendi o que é ter ética de trabalho, porém acabei por compreender que as áreas tradicionais de um economista não eram para mim.</li>
+        <li>Por conta disso, decidi cursar um curso na área de Business, acabei passando em Economia na FEA/USP e aos 17 anos fui morar sozinho em São Paulo.</li>
+        <li>Tive grandes experiências dentro e fora do curso, chegando a estagiar na sede do maior banco brasileiro. Primeiramente na área de Análise de Dados e Planejamento Estratégico, depois na área de Trading.</li>
+        <li>Lá obtive muita experiência profissional e ética de trabalho, porém acabei por compreender que as áreas tradicionais de um economista não eram para mim.</li>
         <li>Em Setembro de 2019 me desliguei do Bradesco para focar no que eu acredito ser realmente a minha paixão: Computação.</li>
         <li>Cá estou. Ainda gosto muito de Finanças e Estratégia Empresarial, mas acredito que serei mais realizado como Computeiro.</li>
     </ul>`;

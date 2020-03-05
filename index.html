@@ -7,54 +7,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">    <meta charset="UTF-8">
     <script src="animations.js"></script>    
 </head>
+
 <body>
     <h1 class="centered color-change">Bem vindos a minha Apresentação</h1>
 
     <div class="jumbotron">
-        <div class="jumboleft">
+        <div class="jumbo-left">
             <img class="bottom" src="/Art/oPatodoBCC.png" />
             <img class="top" src="/Art/Jogui.png" />
-            <img class="crazyduck"src="/Art/nani.gif">
+            <img class="crazy-duck"src="/Art/nani.gif">
 
         </div>
-        <div class="jumbotopright">
-            <button class="tabs" id="leftButton" onclick="joaoMode()">História do João</button>
-            <button class="tabs" id="rightButton" onclick="duckMode()">História do Pato</button>
+        <div class="jumbo-top-right">
+            <button id="left-button" onclick="joaoMode()">História do João</button>
+            <button id="right-button" onclick="duckMode()">História do Pato</button>
         </div>
-        <div class="jumbobottomright centered">
-            <p>Parte Textual de Baixo</p>
+        <div class="jumbo-bottom-right list">
+            <ul>
+                <li>Nascido no Paraná, vivi minha vida inteira no interior de São Paulo (Vale do Ribeira)</li>
+                <li>Desde criança, sempre tive um certo fascínio por empresas, para mim são organismos complexos, que carregam histórias, destinos e a identidade de muitas pessoas.</li>
+                <li>Por conta disso, decidi cursar um curso na área de Business, acabei passando em Economia na FEA/USP e aos 17 anos fui morar sozinho em São Paulo</li>
+                <li>Tive grandes experiências dentro e fora do curso, cheguando a estagiar no maior banco dentro do território brasileiro, o Bradesco</li>
+                <li>Lá obtive muita experiência e ética profissional, porém acabei por compreender que as áreas tradicionais de um economista não eram para mim, eu queria mais.</li>
+                <li>Em Setembro de 2019 me desliguei do Bradesco para focar no que eu acredito ser realmente a minha paixão: Computação.</li>
+                <li>Cá estou. Ainda gosto muito de Finanças e Estratégia Empresarial, mas acredito que serei mais realizado como Computeiro.</li>
+
+            </ul>
         </div>
     </div>
 
     <div class="bullets">
         <h2 class="centered color-change">O que eu posso adicionar ao ICMC Júnior</h2>
-        <h3 class="centered bullet-title">Primeiro Motivo</h3>
-        <h3 class="centered bullet-title">Segundo Motivo</h3>
-        <h3 class="centered bullet-title">Terceiro Motivo</h3>
-        <p class="centered bullet-content" id="ipadress">Parte Textual de Baixo</p>
-        <p class="centered bullet-content" id="duckWithGun">Parte Textual de Baixo</p>
-        <p class="centered bullet-content">Parte Textual de Baixo</p>
+        <h3 class="centered bullet-title">Entusiasmo</h3>
+        <h3 class="centered bullet-title">Proatividade</h3>
+        <h3 class="centered bullet-title">Finanças</h3>
+        <p class="centered bullet-content">Em tudo que eu faço, tento dar o meu melhor e entrego aquilo que eu acredito. Tento me comprometer ao máximo com meus projetos.</p>
+        <p class="centered bullet-content">Sou proativo e estou sempre em busca de novos conceitos e tecnologias para adicionar nos meus projetos.</p>
+        <p class="centered bullet-content">Apesar de não ser o meu objetivo principal, tenho um background na área de Finanças e poderia ajudar na área comercial.</p>
     </div>
 
 
     <h2 class="centered color-change">Por que eu quero entrar no ICMC Júnior</h2>
 
     <div class="pointers">
-        <ul class="a">
-            <li>Pq eu Quero Entrar na Junior</li>
-            <li>Pq eu Quero Entrar na Junior</li>
-            <li>Pq eu Quero Entrar na Junior</li>
-            <li>Pq eu Quero Entrar na Junior</li>
+        <ul class="list">
+            <li>Quero criar projetos capazes de fazer a diferença e gerar impacto real na vida das pessoas.</li>
+            <li>Acredito que é um grande diferencial aprender desde já aprender a lidar com deadlines, clientes reais, e a pressão que provém de um trabalho de verdade.</li>
+            <li>Quero participar de iniciativas onde eu possa aprimorar minhas habilidades de programação.</li>
+            <li>Acredito na importância de ir além da sala de aula em busca do conhecimento.</li>
         </ul>
     </div>
 
     <div class="footer">
         <p>O que será que esse botão faz? =====></p>
         <button class="nani" onclick="naniCrazyDuck()">
-            Botão  🦆🦆🦆<br>
-            Secreto 🦆🦆🦆
+            Botão  🦆🦆🦆<br> Secreto 🦆🦆🦆
         </button> 
-       <p id="footer-align"> Produzido por João Guilherme, o Pato do BCC020</p>
+       <p id="footer-align">Produzido por João Guilherme, o Pato do BCC020</p>
     </div>
 </body>
 </html>

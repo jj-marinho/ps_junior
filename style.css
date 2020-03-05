@@ -9,7 +9,7 @@ h2, h1 {
   color: darkslategrey;
 }
 
-.crazyduck {
+.crazy-duck {
   opacity: 0;
 }
 
@@ -23,14 +23,14 @@ h2, h1 {
   padding: 10px;
 }
 
-.jumboleft {
+.jumbo-left {
   position:relative;
   grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-.jumboleft img {
+.jumbo-left img {
   position:absolute;
   left:0;
   height: 500px;
@@ -43,37 +43,49 @@ h2, h1 {
   border-radius: 20px;
 }
 
-.jumbotopright {
+.jumbo-top-right {
   grid-column-start: 3 ;
   grid-row-start: 2;
   border: solid brown 1px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   margin-left: 40px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  border-radius: 10px;
   place-self: stretch;
 }
 
-.jumbotopright button {
-  border-radius: 10px;
+.jumbo-top-right button {
+  border-radius: 10px 10px 0px 0px;
   border: transparent;
+  background-color: #ABB6C2;
 }
-.jumbotopright button:hover {
-  background-color: rgb(41, 75, 75);
+.jumbo-top-right button:hover {
+  background-color: rgb(95, 108, 122);
   color: aliceblue;
+}
+
+#left-button {
+  border-radius: 10px 0px 0px 0px;
+  border-right: brown solid 2px;
 
 }
 
-
-
-.jumbobottomright {
+#right-button {
+  border-radius: 0px 10px 0px 0px;
+  /* border-left: brown solid 2px; */
+}
+.jumbo-bottom-right {
   grid-column-start: 3 ;
   grid-row-start: 3;
   border: solid brown 1px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   margin-left: 40px;
+}
+
+.list {
+  font-size: 20px;
+  vertical-align: middle;
 }
 
 .centered {
@@ -144,7 +156,3 @@ li {
   align-items: center;
   justify-content: space-between;
 }
-
-/* #footer-align {
-  margin-left: auto;
-} */

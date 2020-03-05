@@ -66,7 +66,7 @@ function naniCrazyDuck(){
 
     // Criando novos elementos e as partes do DOM que precisam ser alteradas.
     feelings = ["PARANOIA", "VIOLÊNCIA", "DESHONRA"];
-    images = ["url(Art/lanseabraba.jpg", "url(Art/patoArmado.png", "url(Art/duckwithknife.jpg"];    
+    images = ["url(art/lanseabraba.jpg", "url(art/patoArmado.png", "url(art/duckwithknife.jpg"];    
     bullets = document.getElementsByClassName("bullet-content");
     bulletTitles = document.getElementsByClassName("bullet-title");
     buttons = document.getElementsByTagName("button");

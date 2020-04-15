@@ -1,4 +1,4 @@
-
+naniCrazyDuck();
 
 // Alterna para o modo Pato, com informações de por que meu apelido é pato e a foto do pato na lateral esquerda
 function duckMode() {
